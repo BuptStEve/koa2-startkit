@@ -1,8 +1,15 @@
-import Router from 'koa-router'
-import indexCtrl from '../controllers/indexCtrl'
+/**
+ * @Author: steve
+ * @Date:   2016-Jul-16 15:16:05
+ * @Last modified by:   steve
+ * @Last modified time: 2016-Jul-16 16:06:18
+ */
 
-const router = Router()
+import Router from 'koa-router';
+import indexCtrl from '../controllers/index_ctrl';
 
-router.get('/', indexCtrl)
+const router = new Router();
 
-export default router
+router.get('/', indexCtrl);
+
+export default router;

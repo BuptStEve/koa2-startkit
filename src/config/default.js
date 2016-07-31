@@ -1,14 +1,10 @@
 /**
- * Created at 16/4/11.
- * @Author Ling.
- * @Email i@zeroling.com
+ * @Author: steve
+ * @Date:   2016-Jul-16 15:00:16
+ * @Last modified by:   steve
+ * @Last modified time: 2016-Jul-16 16:42:59
  */
+
 export default {
   port: 3000,
-  db: {
-    host: 'localhost',
-    database: 'koa2_startkit',
-    username: 'root',
-    password: ''
-  }
-}
+};
